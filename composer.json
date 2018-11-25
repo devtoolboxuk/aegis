@@ -1,12 +1,12 @@
 {
-  "name": "devtoolboxuk/aegis",
+  "name": "aegis/aegis",
   "description": "Aegis",
   "type": "library",
   "license": "MIT",
   "autoload": {
     "psr-4": {
       "": "src/",
-      "devtoolboxuk\\aegis\\": "src/"
+      "Aegis\\": "src/"
     },
     "classmap": [
       "src"
@@ -21,6 +21,7 @@
   "minimum-stability": "dev",
   "require": {
     "respect/validation": "^2.0@dev",
+    "doctrine/dbal": "2.5.13",
     "monolog/monolog": "^2.0@dev"
   },
   "scripts": {
